@@ -179,7 +179,7 @@ img {
 }
 @media (max-width: 500px) {
   .navigation {
-    width: 80%;
+    width: 100%;
   }
 }
 .navigation nav {
@@ -195,11 +195,10 @@ a.navbtn {
 }
 .footer {
   width: 100%;
-  border-top: 2px solid black;
 }
 .footer p {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: xx-small;
   padding: 20px;
 }
 .home {
@@ -214,10 +213,13 @@ a.navbtn {
   }
 }
 .home header {
+  background-image: url(../images/bg01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 2px dashed #68b129;
+  border-bottom: none;
 }
 @media (max-width: 500px) {
   .home header {
@@ -261,6 +263,9 @@ a.navbtn {
   color: white;
   margin-top: 3%;
   width: 50%;
+}
+.home header .login .loginbtn:hover {
+  background: #315313;
 }
 .home .topcontent {
   display: flex;
@@ -365,6 +370,9 @@ a.navbtn {
   margin-top: 3%;
   width: 96%;
 }
+.local a:hover {
+  background: #315313;
+}
 @media (max-width: 500px) {
   .local {
     width: 100%;
@@ -375,6 +383,7 @@ a.navbtn {
   flex-direction: column;
   align-items: center;
   width: 30%;
+  margin-left: 2%;
 }
 @media (max-width: 500px) {
   .Getinvolved {
@@ -395,6 +404,32 @@ a.navbtn {
   font-size: 100%;
   color: white;
   margin-top: 3%;
-  width: 37%;
+  width: 57%;
   margin-top: 4%;
+  font-size: large;
+}
+.Getinvolved a:hover {
+  background: #315313;
+}
+@media (max-width: 500px) {
+  .Getinvolved a {
+    display: flex;
+    justify-content: center;
+    background-color: #68b129;
+    margin-left: 0%;
+    margin-right: 4%;
+    padding: 1%;
+    border: 1px solid #68b129;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+    margin-top: 3%;
+    font-size: x-large;
+    width: 100%;
+    padding: 4%;
+  }
+  .Getinvolved a:hover {
+    background: #315313;
+  }
 }
