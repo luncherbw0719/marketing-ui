@@ -177,6 +177,11 @@ img {
   background: #68b129;
   width: 97%;
 }
+@media (max-width: 500px) {
+  .navigation {
+    width: 80%;
+  }
+}
 .navigation nav {
   display: flex;
   flex-direction: row;
@@ -205,6 +210,7 @@ a.navbtn {
 @media (max-width: 500px) {
   .home {
     max-width: 500px;
+    align-items: center;
   }
 }
 .home header {
@@ -219,7 +225,7 @@ a.navbtn {
     align-items: center;
     padding: 20%;
     width: 100%;
-    margin-left: 5rem;
+    margin-left: 0rem;
   }
 }
 .home header .logo {
@@ -297,6 +303,17 @@ a.navbtn {
   padding: 3%;
   border-bottom: 2px dashed #68b129;
 }
+@media (max-width: 500px) {
+  .home .bottomcontent {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .home .bottomcontent .kids {
+    display: none;
+  }
+}
 .home footer {
   display: flex;
   flex-direction: column;
@@ -311,7 +328,7 @@ a.navbtn {
 @media (max-width: 500px) {
   .mission {
     align-items: center;
-    margin-left: 5rem;
+    margin-left: 0rem;
     width: 85%;
   }
 }
@@ -358,6 +375,12 @@ a.navbtn {
   flex-direction: column;
   align-items: center;
   width: 30%;
+}
+@media (max-width: 500px) {
+  .Getinvolved {
+    width: 100%;
+    padding: 2%;
+  }
 }
 .Getinvolved a {
   display: flex;
