@@ -202,11 +202,25 @@ a.navbtn {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  .home {
+    max-width: 500px;
+  }
+}
 .home header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 2px dashed #68b129;
+}
+@media (max-width: 500px) {
+  .home header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20%;
+    width: 100%;
+    margin-left: 5rem;
+  }
 }
 .home header .logo {
   display: flex;
@@ -250,6 +264,18 @@ a.navbtn {
   align-items: center;
   border-bottom: 2px dashed #68b129;
 }
+@media (max-width: 500px) {
+  .home .topcontent {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home .topcontent img {
+    display: none;
+  }
+}
 .home .middlecontent {
   display: flex;
   flex-direction: row-reverse;
@@ -257,6 +283,12 @@ a.navbtn {
   padding: 3%;
   align-items: center;
   border-bottom: 2px dashed #68b129;
+}
+@media (max-width: 500px) {
+  .home .middlecontent {
+    flex-direction: column;
+    margin-left: 0;
+  }
 }
 .home .bottomcontent {
   display: flex;
@@ -276,6 +308,13 @@ a.navbtn {
   flex-direction: column;
   width: 32%;
 }
+@media (max-width: 500px) {
+  .mission {
+    align-items: center;
+    margin-left: 5rem;
+    width: 85%;
+  }
+}
 .mission h3 {
   margin-bottom: 2rem;
   font-size: -webkit-xxx-large;
@@ -288,6 +327,11 @@ a.navbtn {
 .local h3 {
   font-size: -webkit-xxx-large;
   width: 70%;
+}
+@media (max-width: 500px) {
+  .local h3 {
+    width: 100%;
+  }
 }
 .local a {
   display: flex;
@@ -303,6 +347,11 @@ a.navbtn {
   color: white;
   margin-top: 3%;
   width: 96%;
+}
+@media (max-width: 500px) {
+  .local {
+    width: 100%;
+  }
 }
 .Getinvolved {
   display: flex;
