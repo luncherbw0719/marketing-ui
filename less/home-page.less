@@ -6,6 +6,9 @@
     max-width: 500px;
     align-items: center;
   }
+  @media @tablet{
+    max-width: 650px;
+  }
   header {
     background-image: url(../images/bg01.jpg);
     background-repeat: no-repeat;
@@ -21,6 +24,10 @@
       padding: 20%;
       width: 100%;
       margin-left: 0rem;
+     }
+     @media @tablet{
+       flex-direction: column;
+       align-items: center;
      }
     .logo{
       display: flex;
@@ -48,6 +55,9 @@
     flex-direction: column;
     align-items: center;
     margin-left: 0;
+    }
+    @media @tablet{
+      flex-direction: column-reverse;
     }
   img{
     @media @mobile{
@@ -80,6 +90,9 @@
     flex-direction:column;
     margin-left: 0;
   }
+  @media @tablet{
+    flex-direction: column-reverse;
+}
 }
 .bottomcontent{
   display: flex;
@@ -91,8 +104,16 @@
   flex-direction: column;
   align-items: center;
   }
+  .kidwalking{
+    @media @tablet{
+      display:none;
+    }
+  }
   .kids{
     @media @mobile{
+      display:none;
+    }
+    @media @tablet{
       display:none;
     }
   }
@@ -113,6 +134,10 @@ footer{
     margin-left: 0rem;
     width:85%;
   }
+  @media @tablet{
+    width:100%;
+    align-items: center;
+  }
   h3{
     margin-bottom: 2rem;
     font-size: -webkit-xxx-large;
@@ -128,15 +153,27 @@ footer{
     @media @mobile{
       width:100%;
     }
+    
   }
   a{
     .signup();
     width: 96%;
+    @media @tablet{
+      margin-right:0%;
+      margin-botton:3%;
+    }
   }
   @media @mobile{
     width:100%;
   }
-}
+  @media @tablet{
+    width:100%;
+    align-items: center;
+  }
+
+ 
+  }
+
 .Getinvolved{
   display: flex;
   flex-direction: column;
@@ -147,6 +184,10 @@ footer{
     width:100%;
     padding:2%;
   }
+  @media @tablet{
+    width:100%;
+  }
+  
 a{
   .signup;
    width: 74%;
