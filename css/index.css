@@ -490,3 +490,9 @@ a.navbtn {
     background: #315313;
   }
 }
+.aboutHome{
+  display: flex;
+  flex-direction: column;
+  width:800px;
+  border: 2px solid black;
+}
