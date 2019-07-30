@@ -241,32 +241,6 @@ a.navbtn {
   font-family: 'Knewave', cursive;
   color: #f7be16;
 }
-.home header .login {
-  width: 30rem;
-  flex-direction: row;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-  padding-top: 5%;
-}
-.home header .login .loginbtn {
-  display: flex;
-  justify-content: center;
-  background-color: #68b129;
-  margin-left: 0%;
-  margin-right: 4%;
-  padding: 1%;
-  border: 1px solid #68b129;
-  border-radius: 3px;
-  text-decoration: none;
-  font-size: 100%;
-  color: white;
-  margin-top: 3%;
-  width: 50%;
-}
-.home header .login .loginbtn:hover {
-  background: #315313;
-}
 .home .topcontent {
   display: flex;
   padding: 3%;
@@ -286,6 +260,32 @@ a.navbtn {
   .home .topcontent img {
     display: none;
   }
+}
+.home .topcontent .login {
+  width: 30rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-top: 1%;
+}
+.home .topcontent .login .loginbtn {
+  display: flex;
+  justify-content: center;
+  background-color: #68b129;
+  margin-left: 0%;
+  margin-right: 4%;
+  padding: 1%;
+  border: 1px solid #68b129;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 100%;
+  color: white;
+  margin-top: 3%;
+  width: 50%;
+}
+.home .topcontent .login .loginbtn:hover {
+  background: #315313;
 }
 .home .middlecontent {
   display: flex;
@@ -404,9 +404,10 @@ a.navbtn {
   font-size: 100%;
   color: white;
   margin-top: 3%;
-  width: 57%;
+  width: 74%;
   margin-top: 4%;
   font-size: large;
+  padding: 5%;
 }
 .Getinvolved a:hover {
   background: #315313;
