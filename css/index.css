@@ -134,14 +134,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Knewave', cursive;
 }
 h1 {
   font-size: 4rem;
@@ -176,10 +176,11 @@ img {
   top: 0;
   background: #68b129;
   width: 97%;
+  font-family: 'Abel', sans-serif;
 }
 @media (max-width: 500px) {
   .navigation {
-    width: 100%;
+    width: 94%;
   }
 }
 .navigation nav {
@@ -187,11 +188,41 @@ img {
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
+  font-family: 'Abel', sans-serif;
 }
 a.navbtn {
   text-decoration: none;
   font-size: 2rem;
   color: white;
+  font-family: 'Abel', sans-serif;
+}
+.aboutHome .navigation .navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  background: #68b129;
+  width: 97%;
+  font-family: 'Abel', sans-serif;
+}
+@media (max-width: 500px) {
+  .aboutHome .navigation .navigation {
+    width: 94%;
+  }
+}
+.aboutHome .navigation .navigation nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  font-family: 'Abel', sans-serif;
+}
+.aboutHome .navigation a.navbtn {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Abel', sans-serif;
 }
 .footer {
   width: 100%;
@@ -218,7 +249,7 @@ a.navbtn {
   }
 }
 .home header {
-  background-image: url(../images/bg01.jpg);
+  background-image: url(../images/pic05.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -245,12 +276,6 @@ a.navbtn {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-.home header .logo h3 {
-  padding-left: 3%;
-  font-size: 6rem;
-  font-family: 'Knewave', cursive;
-  color: #f7be16;
 }
 .home .topcontent {
   display: flex;
@@ -371,7 +396,7 @@ a.navbtn {
 }
 @media (max-width: 650px) {
   .mission {
-    width: 100%;
+    width: 94%;
     align-items: center;
   }
 }
@@ -490,9 +515,106 @@ a.navbtn {
     background: #315313;
   }
 }
-.aboutHome{
+.aboutHome {
+  margin: 2rem;
   display: flex;
   flex-direction: column;
-  width:800px;
-  border: 2px solid black;
+}
+.aboutHome header {
+  background-image: url(../images/bg01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: none;
+}
+.aboutHome header .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aboutHome {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.aboutHome footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutHome header {
+  background-image: url(../images/pic05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: none;
+}
+.aboutHome header .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.topContent {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../images/pic06.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+.topContent .introtxt {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px dashed #68b129;
+}
+.topContent .introtxt h3 {
+  font-size: -webkit-xxx-large;
+}
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/pic06.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+.employees .ceo {
+  display: flex;
+  flex-direction: row;
+  width: 68%;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px dashed #68b129;
+}
+.employees .jeff {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 68%;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px dashed #68b129;
+}
+.employees .kevin {
+  display: flex;
+  flex-direction: row;
+  width: 68%;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px dashed #68b129;
+}
+.employees .Karen {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 68%;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px dashed #68b129;
 }
