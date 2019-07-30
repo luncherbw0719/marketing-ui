@@ -543,6 +543,7 @@ a.navbtn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 5%;
 }
 .aboutHome header {
   background-image: url(../images/pic05.jpg);
@@ -569,13 +570,15 @@ a.navbtn {
 .topContent .introtxt {
   display: flex;
   flex-direction: column;
-  width: 68%;
+  width: 73%;
   align-items: center;
   background-color: white;
+  padding: 1%;
   border-bottom: 2px dashed #68b129;
 }
 .topContent .introtxt h3 {
   font-size: -webkit-xxx-large;
+  margin-bottom: 1%;
 }
 .employees {
   display: flex;
@@ -589,7 +592,7 @@ a.navbtn {
 .employees .ceo {
   display: flex;
   flex-direction: row;
-  width: 68%;
+  width: 73%;
   align-items: center;
   background-color: white;
   border-bottom: 2px dashed #68b129;
@@ -597,7 +600,7 @@ a.navbtn {
 .employees .jeff {
   display: flex;
   flex-direction: row-reverse;
-  width: 68%;
+  width: 73%;
   align-items: center;
   background-color: white;
   border-bottom: 2px dashed #68b129;
@@ -605,7 +608,7 @@ a.navbtn {
 .employees .kevin {
   display: flex;
   flex-direction: row;
-  width: 68%;
+  width: 73%;
   align-items: center;
   background-color: white;
   border-bottom: 2px dashed #68b129;
@@ -613,7 +616,7 @@ a.navbtn {
 .employees .Karen {
   display: flex;
   flex-direction: row-reverse;
-  width: 68%;
+  width: 73%;
   align-items: center;
   background-color: white;
   border-bottom: 2px dashed #68b129;
