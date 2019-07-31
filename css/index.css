@@ -175,7 +175,7 @@ img {
   position: fixed;
   top: 0;
   background: #68b129;
-  width: 97%;
+  width: 97.4%;
   font-family: 'Abel', sans-serif;
 }
 @media (max-width: 500px) {
@@ -203,7 +203,7 @@ a.navbtn {
   position: fixed;
   top: 0;
   background: #68b129;
-  width: 97%;
+  width: 97.4%;
   font-family: 'Abel', sans-serif;
 }
 @media (max-width: 500px) {
