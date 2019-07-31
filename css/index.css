@@ -175,12 +175,12 @@ img {
   position: fixed;
   top: 0;
   background: #68b129;
-  width: 97.4%;
+  width: 100%;
   font-family: 'Abel', sans-serif;
 }
 @media (max-width: 500px) {
   .navigation {
-    width: 94%;
+    width: 100%;
   }
 }
 .navigation nav {
@@ -203,12 +203,12 @@ a.navbtn {
   position: fixed;
   top: 0;
   background: #68b129;
-  width: 97.4%;
+  width: 100%;
   font-family: 'Abel', sans-serif;
 }
 @media (max-width: 500px) {
   .aboutHome .navigation .navigation {
-    width: 94%;
+    width: 100%;
   }
 }
 .aboutHome .navigation .navigation nav {
@@ -233,7 +233,7 @@ a.navbtn {
   padding: 20px;
 }
 .home {
-  margin: 2rem;
+  margin: 0rem;
   display: flex;
   flex-direction: column;
 }
@@ -516,7 +516,7 @@ a.navbtn {
   }
 }
 .aboutHome {
-  margin: 2rem;
+  margin: 0rem;
   display: flex;
   flex-direction: column;
 }
@@ -535,7 +535,7 @@ a.navbtn {
   align-items: center;
 }
 .aboutHome {
-  margin: 2rem;
+  margin: 0rem;
   display: flex;
   flex-direction: column;
 }
