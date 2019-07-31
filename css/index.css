@@ -567,6 +567,11 @@ a.navbtn {
   background-size: cover;
   justify-content: center;
 }
+@media (max-width: 650px) {
+  .topContent {
+    background-image: none;
+  }
+}
 .topContent .introtxt {
   display: flex;
   flex-direction: column;
@@ -575,6 +580,11 @@ a.navbtn {
   background-color: white;
   padding: 1%;
   border-bottom: 2px dashed #68b129;
+}
+@media (max-width: 650px) {
+  .topContent .introtxt {
+    background-image: none;
+  }
 }
 .topContent .introtxt h3 {
   font-size: -webkit-xxx-large;
@@ -588,6 +598,11 @@ a.navbtn {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+}
+@media (max-width: 650px) {
+  .employees {
+    background-image: none;
+  }
 }
 .employees .ceo {
   display: flex;

@@ -249,7 +249,9 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
-
+  @media @tablet{
+    background-image: none;
+  }
 }
 .topContent .introtxt{
   display: flex;
@@ -259,7 +261,9 @@ a{
     background-color: white;
     padding: 1%;
     border-bottom: 2px dashed @border-color;
-
+    @media @tablet{
+      background-image: none;
+    }
     
 }
 .topContent .introtxt h3{
@@ -274,6 +278,9 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  @media @tablet{
+    background-image: none;
+  }
   .ceo{
     display: flex;
     flex-direction: row;
