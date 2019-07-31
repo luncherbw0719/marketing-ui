@@ -243,9 +243,9 @@ a.navbtn {
     align-items: center;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .home {
-    max-width: 650px;
+    max-width: 800px;
   }
 }
 .home header {
@@ -266,7 +266,7 @@ a.navbtn {
     margin-left: 0rem;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .home header {
     flex-direction: column;
     align-items: center;
@@ -292,7 +292,7 @@ a.navbtn {
     margin-left: 0;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .home .topcontent {
     flex-direction: column-reverse;
   }
@@ -342,7 +342,7 @@ a.navbtn {
     margin-left: 0;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .home .middlecontent {
     flex-direction: column-reverse;
   }
@@ -360,7 +360,7 @@ a.navbtn {
     align-items: center;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .home .bottomcontent .kidwalking {
     display: none;
   }
@@ -370,7 +370,7 @@ a.navbtn {
     display: none;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .home .bottomcontent .kids {
     display: none;
   }
@@ -394,7 +394,7 @@ a.navbtn {
     width: 85%;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .mission {
     width: 94%;
     align-items: center;
@@ -437,7 +437,7 @@ a.navbtn {
 .local a:hover {
   background: #315313;
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .local a {
     margin-right: 0%;
     margin-botton: 3%;
@@ -448,7 +448,7 @@ a.navbtn {
     width: 100%;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .local {
     width: 100%;
     align-items: center;
@@ -467,7 +467,7 @@ a.navbtn {
     padding: 2%;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .Getinvolved {
     width: 100%;
   }
@@ -567,7 +567,7 @@ a.navbtn {
   background-size: cover;
   justify-content: center;
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .topContent {
     background-image: none;
   }
@@ -581,7 +581,7 @@ a.navbtn {
   padding: 1%;
   border-bottom: 2px dashed #68b129;
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .topContent .introtxt {
     background-image: none;
   }
@@ -599,7 +599,7 @@ a.navbtn {
   background-size: cover;
   justify-content: center;
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .employees {
     background-image: none;
   }
