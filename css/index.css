@@ -328,6 +328,11 @@ a.navbtn {
 .home .topcontent .login .loginbtn:hover {
   background: #315313;
 }
+@media (max-width: 500px) {
+  .home .topcontent .video {
+    display: none;
+  }
+}
 .home .middlecontent {
   display: flex;
   flex-direction: row-reverse;
