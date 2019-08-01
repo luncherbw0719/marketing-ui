@@ -533,7 +533,7 @@ a.navbtn {
   flex-direction: column;
 }
 .aboutHome header {
-  background-image: url(../images/bg01.jpg);
+  background-image: url(../images/pic05.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -557,15 +557,8 @@ a.navbtn {
   align-items: center;
   padding-top: 5%;
 }
-.aboutHome header {
-  background-image: url(../images/pic05.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: none;
-}
+
+
 .aboutHome header .logo {
   display: flex;
   flex-direction: row;
